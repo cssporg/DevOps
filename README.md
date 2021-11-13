@@ -17,16 +17,20 @@ $sh sandbox.sh
 $source export.sh
 
 
+# DevStack 
 
-Step 2: Build Custom AMI with Packer
+Step 1: Build Custom AMI with Packer
 
-https://github.com/cssporg/packer
+https://github.com/devstackorg/packer.git
+
+Step 2: Provision infrastructure with terraform
+
+https://github.com/devstackorg/terraform.git
+
+Step 3: Install and configure softwares using Ansible
+
+https://github.com/devstackorg/ansible.git
 
 
-
-
-
-https://github.com/devstackorg
-
-
+# OpsStack
 https://github.com/opstacksorg
